@@ -1,7 +1,10 @@
+import { Link } from "react-router-dom";
+
 function Home() {
     return (
         <div>
-            this is Home page
+            <h1>Homepage</h1>
+            <Link to="/products">Products</Link>
         </div>
     )
 };
